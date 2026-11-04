@@ -1,0 +1,130 @@
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top:0;
+    z-index: 1 ;
+}
+#navbar .logo img{
+    widows: 80px;
+}
+#navbar  ul{
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a{
+    color:#fff;
+    padding:1rem;
+
+}
+#navbar ul li a:hover{
+    background-color: rgb(240, 121, 30);
+    border-radius: 5px ;
+}
+
+    
+.bg-dark{
+    background-color: #022c19;
+    color:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+        background-color: rgb(255, 249, 249);
+        background-size: cover;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #064b29;
+    }
+    /* Div */
+    h2{
+        color:#064b29 ;
+    }
+    
+    .Sign-up {
+        text-align: center;
+        position: relative;
+    }
+      a.cla{
+        text-decoration: none;
+        background-color: darkorange;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        color: #064b29;
+
+    }
+    a {
+        text-decoration: none;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        color: #064b29;
+
+
+    }
+    
+    input[type=text] {
+        border-radius: 10px;
+        color: rgb(169, 100, 28);
+        font-size: 15px;
+        width: 20%;
+        padding: 10px;
+        margin: 2px;
+        border: 2px solid green;
+    }
+    
+    input[type=number] {
+        border-radius: 10px;
+        width: 20%;
+        padding: 10px;
+        border: 2px solid green;
+    }
+    
+    input[type=email] {
+        border-radius: 10px;
+        width: 20%;
+        padding: 10px;
+    }
+    
+    input[type=password] {
+        border-radius: 10px;
+        width: 20%;
+        padding: 10px;
+    }
+    
+    input[type=submit] {
+        background-color:darkorange ;
+        color: rgb(2, 73, 2);
+        padding: 15px 30px;
+        border: none;
+        border-radius: 4px;
+    }
+    
+    input[type=reset] {
+        background-color: darkorange;
+        color: rgb(2, 73, 2);
+        padding: 15px 30px;
+        border: none;
+        border-radius: 4px;
+    }
+     input.er{
+        font-size: large ;
+        font-weight: bold;
+    }
+    input.ss{
+      color: rgb(7, 0, 0);
+    }
+    .text-center{
+        text-align: center;
+        
+    }
+    label{
+        color: rgb(2, 73, 2);
+    }

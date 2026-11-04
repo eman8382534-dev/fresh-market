@@ -1,0 +1,63 @@
+body {
+    background-image: url(img/hotel_the_enchanted_garden.jpg ) ;
+    background-size: cover;
+    background-color: rgb(160, 156, 151);
+}
+
+
+.form {
+        font-weight: bold;
+        text-align: center;
+        text-shadow: #252a34 .5px;
+        margin: 50px auto 0 ;
+        padding: 20px 20px 20px 20px  ;
+        max-width: 800px;
+        
+        color: white;
+        height: auto;
+        border: 5px solid W;
+        background-color: #252a34;
+        font-size: xx-large;
+}
+.inp {
+    color: white;
+    font-size: inherit ;
+}
+ul{
+    list-style-type: none;
+}
+
+
+.in1 {
+    margin: 40px 40px 40px 40px;
+    padding: 20px;
+    border: 5px solid rgb(160, 156, 151);
+    width: 35%;
+}
+
+#str {
+    margin: 40px 40px 40px 40px;
+    padding: 20px;
+    border: 5px solid rgb(160, 156, 151);
+    width: 40%;
+    height: 70px;
+    font-size: xx-large;
+    border-radius: 35px;
+}
+button {
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    font-size: inherit ;
+    font-weight: bold;
+    color: black;
+    width: 40;
+}
+
+
+
+
+
+
+
+

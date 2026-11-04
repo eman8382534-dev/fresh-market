@@ -1,0 +1,136 @@
+body{
+    background-image: url("../img/photo_2022-01-02_11-54-26.jpg");
+    background-size: cover;
+}
+.container {
+    padding: 50px;
+    margin: 40px;
+
+}
+.container table{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #022c19 ;
+}
+.container table tr td {
+    padding: 0 25px;
+}
+.container table tr td h1{
+    border-bottom: #022c19 solid 10px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.container table tr td a {
+    background-color:#EC4A24 ;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.container table tr td a:hover{
+    background-color: #BB5526;
+    color: white ;
+}
+.container table tr td img {
+    border: solid #252a34;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+.container1 {
+    padding: 30px;
+    margin: 40px;
+
+}
+.container1 table{
+    margin: auto;
+    border: solid white;
+    width: 80%;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px grey ;
+}
+
+.container1 table tr td {
+    padding: 0px 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.container1 table tr td img{
+   height: 200px;
+   width: 200px;
+}
+.mmm{
+    width: 290px;
+}
+.fff{
+    width: 290px;
+}
+.vvv{
+    width: 290px;
+}
+.oo{
+    width: 170px;
+    height: 150px;
+    max-width: 90%;
+    max-height: 90%;
+    
+}
+.vv{
+    width: 170px;
+    height: 150px;
+    max-width: 90%;
+    max-height: 90%;
+}
+.ff{
+    width: 170px;
+    height: 150px;
+    max-width: 90%;
+    max-height: 90%;
+    
+}
+.dd{
+    width: 170px;
+    height: 150px;
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 20px;
+}
+.thumb img{
+
+    border: 4px solid #252a34;
+    border-radius: 2px;
+    padding: 1px;
+    margin: auto;
+    
+   
+    height: 120px;
+}
+.thumb  img:hover{
+    border-radius: 2px;
+    border: 4px solid #252a34;
+}
+.a{
+    background-color:#EC4A24 ;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
